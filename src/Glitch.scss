@@ -1,0 +1,196 @@
+.center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image-container {
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  z-index: -1;
+}
+.image-container .image-frame {
+
+}
+.image-container img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.glitch__grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch__grid__item {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  background: transparent;
+  flex-direction: column;
+}
+
+.glitch__center__center {
+  align-items: center;
+  justify-content: center;
+}
+
+.glitch__start__center {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.glitch__end__center {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.glitch__center__start {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.glitch__center__end {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grid__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.glitch-info {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.scramble-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.digit-container {
+  padding: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.digit-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+
+.digit-title {
+
+    width: 100%;
+    display: flex;
+    font-family: "Courier New";
+    color: #fff;
+    padding-left: 1rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: uppercase;
+  
+}
+
+.digit-item {
+    width: 100%;
+    display: grid;
+ grid-template-columns: 1fr 3fr 1fr;
+ height: 100%;
+}
+
+.digit-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    height: 100%;
+}
+
+.digit-scores {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    justify-content: flex-start;
+
+    text-transform: uppercase;
+  
+}
+
+.digit-name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    justify-content: flex-start;
+    width: 100%;  
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.digit-scramble {
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scramble__span {
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 1rem;
+}
+            
+
+

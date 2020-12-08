@@ -1,28 +1,45 @@
 import React from 'react'
 
 import ScrambleWord from "./ScrambleWord";
-
+import './DigitHover.scss'
 const Scrambles = [
   {
-    date: "2020",
+   title: "Web Developer Intern",
+   subtitle: 'Future Doctors Organization',
     scores: [
-      "Hello my name is",
-      "Lorem ipsum genertor",
-      "Hello world",
-      "Scrambles",
+      "Built a React, Meteor.js full stack web application that uses the publication and subscription pattern to dynamically update data from a MongoDB database to the client",
+      "Created multiple schemas for the events, announcements, and auxiliary data that would be produced by administrators and consumed by members of the club",
+      "Utilized Meteor’s global state capabilities to create a interface that would change for specified role and school at login and assign editing and event adding capabilities accordingly",
+
     ],
-    name: "Ooga booga",
+    type: 'Remote',
+    date: "Aug. 2020 – Present",
   },
   {
-    date: "2020",
-    scores: [
-      "Hello my name is",
-      "Lorem ipsum genertor",
-      "Hello world",
-      "Scrambles",
-    ],
-    name: "Ooga booga",
-  },
+    title: "Web Developer Intern",
+    subtitle: 'Contain Covid',
+     scores: [
+       "Aided in implementing a web application that takes user’s Google takeout data to tag locations for manual contact tracing",
+       "Designed a boilerplate user interface with React and Webflow that allows users to navigate through visited locations and add interactions and notes for their designated tracer",
+       "Developed database schemas for interactions and granular user data to organize and edit tracer and tracee info"
+ 
+     ],
+     type: 'Remote',
+     date: "Mar. 2020 – Aug. 2020",
+   },
+   {
+    title: "Neuroscience Research Assistant",
+    subtitle: 'University of Maryland, College Park',
+     scores: [
+       "Measured behavior patterns of crayfish in different social situations and Ethyl Hydroxide environments",
+       "Interpreted the erratic behavior patterns through a tested formula in order to obtain quantifiable insights on the psychological effects of the Ethyl Hydroxide",
+       "Created an OpenCV optical-flow program in Python that uses the Lucas-Kanade method to track motion of objects in the video and cut and tally erratic motions for further analysis",
+ 
+     ],
+     type: 'Remote',
+     date: "Jun. 2019 - Aug. 2019",
+   },
+ 
 ];
 
 
@@ -44,13 +61,16 @@ export default function DigitHover() {
         <div className="digit-title">
         
         <div>
-        DISCOVERY <span class="blinking-cursor">|</span>
+        EXPERIENCE<span class="blinking-cursor">|</span>
         </div>
         </div>
 
         {Scrambles.map((item, key) => (
           <div className="digit-item">
-            <div className="digit-name">{item.name}</div>
+          <div className="digit__main" style={{display: 'flex', flexDirection: 'column', paddingLeft: '0.5rem'}}>
+            <div className="digit__title">{item.title}</div>
+            <div className="digit__subtitle">{item.subtitle}</div>
+            </div>
             <div className="digit-scores">
               {item.scores.map((word, index) => (
                   <div className="digit-scramble"
@@ -59,10 +79,10 @@ export default function DigitHover() {
                 
                   >
                   <div style={{display: "flex", flexDirection: 'row'}}>
-                  <span className="scramble__span">{index}</span>
+                  <span className="scramble__span">0{index}</span>
                 <ScrambleWord paragraph= {word} fullScramble={mapLetters[key] + index == activeIndex ? true : false} />
                 </div>
-                <ScrambleWord paragraph={"0:00:11"} fullScramble={mapLetters[key] + index == activeIndex ? true : false} />
+              
                 
                 </div>
               ))}

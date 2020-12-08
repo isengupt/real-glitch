@@ -6,11 +6,13 @@ body {
   background: #1d1e22 !important;
 }
 .press-container__title {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
   width: calc(76vw - 24px);
   color: #fff;
+  opacity: 0.5;
 }
+
 
 .press {
   position: relative;
@@ -117,10 +119,10 @@ body {
 @media all and (max-width: 767px) {
   .press-container__media,
   .press-container__year {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
     font-size: 14px;
-    font-size: 0.875rem;
-    line-height: 16px;
-    line-height: 1rem;
+   
   }
 }
 .press-container__media {
@@ -133,17 +135,16 @@ body {
   }
 }
 .press-container__title {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
   width: calc(76vw - 24px);
 }
 @media all and (max-width: 767px) {
   .press-container__title {
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 16px;
-    line-height: 1rem;
-    width: auto;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+   
   }
 }
 .press-container__year {
@@ -344,5 +345,14 @@ textarea {
   align-items: center;
   justify-content: flex-start;
   text-transform: uppercase;
+
+}
+
+
+.press-container__media {
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  text-transform: capitalize;
 
 }

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/real-glitch/static/css/main.bccdc28d.chunk.css",
-    "main.js": "/real-glitch/static/js/main.ad05743e.chunk.js",
-    "main.js.map": "/real-glitch/static/js/main.ad05743e.chunk.js.map",
-    "runtime-main.js": "/real-glitch/static/js/runtime-main.2a1bc26e.js",
-    "runtime-main.js.map": "/real-glitch/static/js/runtime-main.2a1bc26e.js.map",
-    "static/js/2.a276b6d6.chunk.js": "/real-glitch/static/js/2.a276b6d6.chunk.js",
-    "static/js/2.a276b6d6.chunk.js.map": "/real-glitch/static/js/2.a276b6d6.chunk.js.map",
-    "static/js/3.8b5c9c2a.chunk.js": "/real-glitch/static/js/3.8b5c9c2a.chunk.js",
-    "static/js/3.8b5c9c2a.chunk.js.map": "/real-glitch/static/js/3.8b5c9c2a.chunk.js.map",
+    "main.css": "/real-glitch/static/css/main.593fbed9.chunk.css",
+    "main.js": "/real-glitch/static/js/main.5503faea.chunk.js",
+    "main.js.map": "/real-glitch/static/js/main.5503faea.chunk.js.map",
+    "runtime-main.js": "/real-glitch/static/js/runtime-main.59f3607f.js",
+    "runtime-main.js.map": "/real-glitch/static/js/runtime-main.59f3607f.js.map",
+    "static/js/2.94da551f.chunk.js": "/real-glitch/static/js/2.94da551f.chunk.js",
+    "static/js/2.94da551f.chunk.js.map": "/real-glitch/static/js/2.94da551f.chunk.js.map",
+    "static/js/3.080656f8.chunk.js": "/real-glitch/static/js/3.080656f8.chunk.js",
+    "static/js/3.080656f8.chunk.js.map": "/real-glitch/static/js/3.080656f8.chunk.js.map",
     "index.html": "/real-glitch/index.html",
-    "static/css/main.bccdc28d.chunk.css.map": "/real-glitch/static/css/main.bccdc28d.chunk.css.map",
-    "static/js/2.a276b6d6.chunk.js.LICENSE.txt": "/real-glitch/static/js/2.a276b6d6.chunk.js.LICENSE.txt",
+    "static/css/main.593fbed9.chunk.css.map": "/real-glitch/static/css/main.593fbed9.chunk.css.map",
+    "static/js/2.94da551f.chunk.js.LICENSE.txt": "/real-glitch/static/js/2.94da551f.chunk.js.LICENSE.txt",
     "static/media/1.80fc943b.gif": "/real-glitch/static/media/1.80fc943b.gif",
     "static/media/2.627a9d8b.gif": "/real-glitch/static/media/2.627a9d8b.gif",
     "static/media/3.5e5ed9e1.gif": "/real-glitch/static/media/3.5e5ed9e1.gif",
@@ -22,9 +22,9 @@
     "static/media/App.css": "/real-glitch/static/media/noise.afb129a4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a1bc26e.js",
-    "static/js/2.a276b6d6.chunk.js",
-    "static/css/main.bccdc28d.chunk.css",
-    "static/js/main.ad05743e.chunk.js"
+    "static/js/runtime-main.59f3607f.js",
+    "static/js/2.94da551f.chunk.js",
+    "static/css/main.593fbed9.chunk.css",
+    "static/js/main.5503faea.chunk.js"
   ]
 }
